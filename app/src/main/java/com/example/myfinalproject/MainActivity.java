@@ -17,8 +17,8 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        gotoreg=findViewById(R.id.textView);
-        gotofpass=findViewById(R.id.textView2);
+        gotoreg=findViewById(R.id.textView2);
+        gotofpass=findViewById(R.id.textView);
         btnsignin=findViewById(R.id.button);
         etmail=findViewById(R.id.editTextTextEmailAddress);
         etpass=findViewById(R.id.editTextTextPassword);
