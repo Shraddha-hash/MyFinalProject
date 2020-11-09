@@ -38,6 +38,7 @@ public class storeowner_addnewproduct extends AppCompatActivity {
     private EditText inputproductname,inputproductdescription,inputproductprice;
     private static final int gallerypick=1;
     private Uri imageuri;
+
     private StorageReference Productimagesref;
     private DatabaseReference productref;
     private ProgressDialog loadingbar;
