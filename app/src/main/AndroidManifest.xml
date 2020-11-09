@@ -11,7 +11,8 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:ignore="AllowBackup">
-        <activity android:name=".storeowner_addnewproduct"></activity>
+        <activity android:name=".owner"></activity>
+        <activity android:name=".storeowner_addnewproduct" />
         <activity android:name=".category" />
         <activity android:name=".ForgetPass" />
         <activity android:name=".Registration" />

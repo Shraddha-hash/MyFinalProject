@@ -3,7 +3,7 @@ apply plugin: 'com.google.gms.google-services'
 
 android {
     compileSdkVersion 30
-    buildToolsVersion "30.0.1"
+    buildToolsVersion '30.0.2'
 
     defaultConfig {
         applicationId "com.example.myfinalproject"
@@ -35,7 +35,7 @@ dependencies {
     implementation 'com.google.firebase:firebase-auth:16.0.5'
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'androidx.test.ext:junit:1.1.2'
-
+    
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'
 
 }
