@@ -41,7 +41,7 @@ public class MainActivity extends AppCompatActivity {
         btnsignin.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(MainActivity.this,storeowner_addnewproduct.class));
+                startActivity(new Intent(MainActivity.this,category.class));
             }
         });
     }
