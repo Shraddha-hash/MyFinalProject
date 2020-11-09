@@ -19,6 +19,7 @@ public class category extends AppCompatActivity {
         setContentView(R.layout.activity_category);
 
         guitar=(ImageView)findViewById(R.id.guitar) ;
+
         drum=(ImageView)findViewById(R.id.guitar) ;
         piano=(ImageView)findViewById(R.id.guitar) ;
         harmonium=(ImageView)findViewById(R.id.guitar) ;
