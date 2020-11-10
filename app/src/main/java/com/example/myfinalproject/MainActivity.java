@@ -80,7 +80,7 @@ public class MainActivity extends AppCompatActivity {
             public void onComplete(@NonNull Task<AuthResult> task) {
                 if(task.isSuccessful())
                 {
-                    startActivity(new Intent(MainActivity.this,category.class));
+                    startActivity(new Intent(MainActivity.this,home.class));
                 }
                 else
                 {
