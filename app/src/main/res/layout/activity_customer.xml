@@ -4,66 +4,52 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".owner">
+    tools:context=".customer">
 
     <Button
-        android:id="@+id/button5"
-        android:layout_width="400dp"
-        android:layout_height="62dp"
+        android:id="@+id/button13"
+        android:layout_width="397dp"
+        android:layout_height="75dp"
         android:text="HOME"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-
-
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.070" />
+        app:layout_constraintVertical_bias="0.031" />
 
     <Button
-        android:id="@+id/button6"
-        android:layout_width="403dp"
-        android:layout_height="69dp"
-        android:text="ALL PRODUCTS"
+        android:id="@+id/button10"
+        android:layout_width="402dp"
+        android:layout_height="77dp"
+        android:text="MY CART"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-
+        app:layout_constraintHorizontal_bias="0.486"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.170" />
+        app:layout_constraintVertical_bias="0.155" />
 
     <Button
-        android:id="@+id/button7"
-        android:layout_width="412dp"
-        android:layout_height="60dp"
-        android:text="ADD"
+        android:id="@+id/button11"
+        android:layout_width="392dp"
+        android:layout_height="78dp"
+        android:text="MY ORDER"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-
+        app:layout_constraintHorizontal_bias="0.464"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.280"
-       />
+        app:layout_constraintVertical_bias="0.283" />
 
     <Button
-        android:id="@+id/button8"
-        android:layout_width="403dp"
-        android:layout_height="62dp"
-        android:text="ORDERS"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.375" />
-
-    <Button
-        android:id="@+id/button9"
+        android:id="@+id/button12"
         android:layout_width="396dp"
-        android:layout_height="66dp"
+        android:layout_height="74dp"
         android:text="SIGN OUT"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-
+        app:layout_constraintHorizontal_bias="0.575"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.480" />
+        app:layout_constraintVertical_bias="0.413" />
 </androidx.constraintlayout.widget.ConstraintLayout>
