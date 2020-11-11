@@ -1,22 +1,13 @@
 package com.example.myfinalproject;
 
-import androidx.annotation.NonNull;
+import android.os.Bundle;
+
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-import android.os.Bundle;
-import android.view.LayoutInflater;
-import android.view.View;
-import android.view.ViewGroup;
-
-import com.example.myfinalproject.model.Products;
-import com.example.myfinalproject.viewHolder.ProductViewHolder;
-import com.firebase.ui.database.FirebaseRecyclerAdapter;
-import com.firebase.ui.database.FirebaseRecyclerOptions;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
-import com.squareup.picasso.Picasso;
 
 public class home extends AppCompatActivity {
 private DatabaseReference productref;
@@ -39,7 +30,7 @@ private LinearLayoutManager layoutManager;
     {
 
         super.onStart();
-        FirebaseRecyclerOptions<Products>options=new FirebaseRecyclerOptions.Builder<Products>().setQuery(productref,Products.class).build();
+       /* FirebaseRecyclerOptions<Products>options=new FirebaseRecyclerOptions.Builder<Products>().setQuery(productref,Products.class).build();
         FirebaseRecyclerAdapter<Products, ProductViewHolder>adapter=new FirebaseRecyclerAdapter<Products, ProductViewHolder>(options) {
             @Override
             protected void onBindViewHolder(@NonNull ProductViewHolder productViewHolder, int i, @NonNull Products products) {
@@ -59,7 +50,7 @@ private LinearLayoutManager layoutManager;
             }
         };
         recyclerView.setAdapter(adapter);
-        adapter.startListening();
+        adapter.startListening();*/
 
     }
 }

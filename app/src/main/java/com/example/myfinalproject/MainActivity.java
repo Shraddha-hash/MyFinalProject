@@ -1,8 +1,5 @@
 package com.example.myfinalproject;
 
-import androidx.annotation.NonNull;
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
 import android.os.Bundle;
 import android.util.Patterns;
@@ -11,6 +8,9 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
+
+import androidx.annotation.NonNull;
+import androidx.appcompat.app.AppCompatActivity;
 
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
@@ -56,7 +56,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void userlogin() {
-        String email=etmail.getText().toString().trim();
+        final String email=etmail.getText().toString().trim();
         String pass=etpass.getText().toString().trim();
         if(email.isEmpty())
         {
@@ -80,7 +80,10 @@ public class MainActivity extends AppCompatActivity {
             public void onComplete(@NonNull Task<AuthResult> task) {
                 if(task.isSuccessful())
                 {
-                    startActivity(new Intent(MainActivity.this,home.class));
+                    if(email.equals("ourp272207@gmail.com"))
+                        startActivity(new Intent(MainActivity.this,owner.class));
+                    else
+                        startActivity(new Intent(MainActivity.this,customer.class));
                 }
                 else
                 {
